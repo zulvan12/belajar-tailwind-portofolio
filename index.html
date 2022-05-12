@@ -8,13 +8,50 @@
 	<link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
+	<!-- Header start -->
+	<header class="top-0 left-0 bg-transparent absolute w-full flex items-center z-10">
+		<div class="container md:px-20">
+			<div class="flex items-center justify-between relative">
+				<div class="p-6">
+					<a href="#home" class="font-bold text-secondary text-2xl block">portofolio</a>
+				</div>
+				<div class="flex items-center px-4">
+					<button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+						<span class="hamburger-line transtition duration-300 ease-in-out origin-top-left"></span>
+						<span class="hamburger-line transtition duration-300 ease-in-out"></span>
+						<span class="hamburger-line transtition duration-300 ease-in-out origin-top-left"></span>
+					</button>
+
+					<nav id="nav-menu" class="hidden absolute py-2 shadow-lg rounded-lg max-w-[150px] w-full right-4 top-full bg-white lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none">
+						<ul class="block lg:flex">
+							<li class="group block py-2">
+								<a href="#home" class="px-4 text-base text-primary group-hover:text-secondary">Beranda</a>
+							</li>
+							<li class="group block py-2">
+								<a href="#about" class="px-4 text-base text-primary group-hover:text-secondary">Tentang saya</a>
+							</li>
+							<li class="group block py-2">
+								<a href="#project" class="px-4 text-base text-primary group-hover:text-secondary">Project</a>
+							</li>
+							<li class="group block py-2">
+								<a href="#contact" class="px-4 text-base text-primary group-hover:text-secondary">Kontak</a>
+							</li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header end -->
+
 	<!-- Hero section start -->
 	<section id="home" class="pt-24">
 		<div class="container">
 			<div class="flex flex-wrap">
 				<div class="w-full self-center px-8 mb-10 md:w-1/2 md:pl-24 md:mb-0">
 					<h1 class="text-base text-secondary font-semibold"> Halo semua , saya <span class="font-bold text-primary text-2xl">Zulvan</span> &#128585;</h1>
-					<h2 class="pb-4 font-medium">Professional Useless Human</h2>
+					<h2 class="pb-4 font-medium">Lorem, ipsum dolor.</h2>
 					<h2 class="font-medium pb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, praesentium.</h2>
 
 					<a href="#contact" class="font-semibold text-white bg-secondary py-2 px-4 hover:shadow-lg hover:opacity-90 rounded-full transition duration-300 ease-in-out">Contact Me!</a>
@@ -65,5 +102,7 @@
 		</div>
 	</section>
 	<!-- About section end -->
+
+	<script src="dist/script/script.js"></script>
 </body>
 </html>
